@@ -1,0 +1,11 @@
+(*
+Lizenzding
+*)
+on linkinuscmd()
+	tell application "EyeTV"
+		activate
+		channel_change channel number 6
+		volume_change level 0.5
+	end tell
+	return / dev / null
+end linkinuscmd
