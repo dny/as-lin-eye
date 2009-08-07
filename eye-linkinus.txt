@@ -1,5 +1,6 @@
 (*
-Lizenzding
+Lizenzding 
+This script is under BSD-License
 *)
 on linkinuscmd()
 	tell application "EyeTV"
